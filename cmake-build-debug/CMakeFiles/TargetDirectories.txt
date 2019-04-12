@@ -1,0 +1,3 @@
+/home/fredia/CLionProjects/back-end-share/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fredia/CLionProjects/back-end-share/cmake-build-debug/CMakeFiles/back_end_share.dir
+/home/fredia/CLionProjects/back-end-share/cmake-build-debug/CMakeFiles/edit_cache.dir

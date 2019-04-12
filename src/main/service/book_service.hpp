@@ -1,0 +1,8 @@
+//
+// Created by fredia on 19-4-11.
+//
+
+#ifndef BACK_END_SHARE_BOOK_SERVICE_HPP
+#define BACK_END_SHARE_BOOK_SERVICE_HPP
+
+#endif //BACK_END_SHARE_BOOK_SERVICE_HPP

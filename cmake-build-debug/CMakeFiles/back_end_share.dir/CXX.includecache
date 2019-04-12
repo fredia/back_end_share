@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fredia/CLionProjects/back-end-share/src/main/./data/book_detail.hpp
+../../include/iguana/json.hpp
+/home/fredia/CLionProjects/back-end-share/src/main/include/iguana/json.hpp
+../../include/mysql-orm/qualifier.hpp
+/home/fredia/CLionProjects/back-end-share/src/main/include/mysql-orm/qualifier.hpp
+
+/home/fredia/CLionProjects/back-end-share/src/main/./storage/book_storage.hpp
+../../include/mysql-orm/mysql.hpp
+/home/fredia/CLionProjects/back-end-share/src/main/include/mysql-orm/mysql.hpp
+../data/book_detail.hpp
+/home/fredia/CLionProjects/back-end-share/src/main/./data/book_detail.hpp
+
+/home/fredia/CLionProjects/back-end-share/src/main/./web/book_controller.hpp
+iostream
+-
+../../include/sneeze/http_server.hpp
+/home/fredia/CLionProjects/back-end-share/src/main/include/sneeze/http_server.hpp
+../storage/book_storage.hpp
+/home/fredia/CLionProjects/back-end-share/src/main/./storage/book_storage.hpp
+
+/home/fredia/CLionProjects/back-end-share/src/main/main.cpp
+iostream
+-
+./web/book_controller.hpp
+/home/fredia/CLionProjects/back-end-share/src/main/./web/book_controller.hpp
+./storage/book_storage.hpp
+/home/fredia/CLionProjects/back-end-share/src/main/./storage/book_storage.hpp
+

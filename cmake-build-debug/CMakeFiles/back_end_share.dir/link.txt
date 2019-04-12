@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/back_end_share.dir/src/main/main.cpp.o  -o back_end_share -lpthread -lboost_system -luuid -lstdc++fs -lmysqlclient 
