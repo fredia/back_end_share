@@ -48,18 +48,19 @@ public:
     }
 
     std::string to_json(std::vector<book_detail> &books) {
+        std::string baseUrl = "http://101.200.60.173:8081";
         std::string str = "[";
         for (auto book:books) {
             nlohmann::json bd;
             bd["name"] = book.name;
             bd["id"] = book.id;
-            bd["path"] = book.path;
-            bd["imag"] = book.imag;
+            bd["path"] = baseUrl + book.path.substr(1);
+            bd["imag"] = baseUrl + book.imag.substr(1);
             std::string tmp = bd.dump();
             str += tmp;
             str += ",";
         }
-        str[str.size()-1]= ']';
+        str[str.size() - 1] = ']';
         std::cout << str << std::endl;
         return str;
     }
