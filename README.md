@@ -10,7 +10,7 @@
     - 前端(VUE)
 ## web框架(SQUIRREL)
 架构：
-![](/home/fredia/CLionProjects/back-end-share/imag/squirrel.png)
+![](https://github.com/fredia/back_end_share/blob/master/imag/squirrel.png)
 
 1. http组件： [sneeze](https://github.com/fredia/sneeze)
 2. ORM组件： [mysql-orm](https://github.com/fredia/mysql-orm)
@@ -22,8 +22,8 @@
 
 ## 基于web框架的综合性资源共享平台
 架构
-![](/home/fredia/CLionProjects/back-end-share/imag/all.png)
+![](https://github.com/fredia/back_end_share/blob/master/imag/all.png)
 ### 后端(MVC三层架构)
 
 ### 前端(VUE)
-![](/home/fredia/CLionProjects/back-end-share/imag/vue_book.png)
+![](https://github.com/fredia/back_end_share/blob/master/imag/vue_book.png)
