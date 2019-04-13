@@ -25,6 +25,7 @@ public:
         } else {
             assert(req.get_content_type() == content_type::multipart);
             std::string name = req.get_query_value("name");
+            std::cout<<name<<std::endl;
             auto &files = req.get_upload_files();
             if (files.size() != 2) {
                 res.set_status_and_content(status_type::bad_request, "must upload 2 files!!!");
