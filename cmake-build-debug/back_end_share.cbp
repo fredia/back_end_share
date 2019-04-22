@@ -99,6 +99,9 @@
 		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/book_controller.hpp">
 			<Option target="back_end_share"/>
 		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/books_list.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
 		<Unit filename="/home/fredia/CLionProjects/back-end-share/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

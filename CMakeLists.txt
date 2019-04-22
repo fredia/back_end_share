@@ -10,5 +10,5 @@ link_directories(/usr/lib)
 
 find_package(Boost REQUIRED)
 
-add_executable(back_end_share src/main/main.cpp src/main/service/book_service.hpp src/main/storage/book_storage.hpp src/main/web/book_controller.hpp src/main/data/book_detail.hpp)
+add_executable(back_end_share src/main/main.cpp src/main/service/book_service.hpp src/main/storage/book_storage.hpp src/main/web/book_controller.hpp src/main/data/book_detail.hpp src/main/web/books_list.hpp)
 target_link_libraries(back_end_share pthread boost_system uuid stdc++fs mysqlclient)

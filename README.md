@@ -58,8 +58,10 @@ SQUIRREL框架是基于C++17标准实现的轻量级web框架,有以下特点:
         │   ├── storage
         │   │   └── book_storage.hpp
         │   └── web
-        │       └── book_controller.hpp
+        │       ├── book_controller.hpp
+        │       └── books_list.hpp
         └── test
+
 
 
 ### 前端(VUE)
