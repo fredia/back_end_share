@@ -575,7 +575,7 @@ namespace mysql_orm {
             iguana::for_each(t, [&sql, &t, &auto_key, this](const auto &v, auto i) {
                 std::string str = iguana::get_name<T>(i).data();
                 str += "=";
-                str += string(convert_to_type(t.*v));
+                str += std::string(convert_to_type(t.*v));
                 i == (SIZE - 1) ? (str += " ") : (str += ",");
                 append_sql(sql, str);
             });

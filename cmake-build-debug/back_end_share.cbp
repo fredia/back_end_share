@@ -84,22 +84,79 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/data/article_detail.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
 		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/data/book_detail.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/data/slide_detail.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/data/user_detail.hpp">
 			<Option target="back_end_share"/>
 		</Unit>
 		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/main.cpp">
 			<Option target="back_end_share"/>
 		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/service/atricle_service.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
 		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/service/book_service.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/service/slide_service.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/service/user_service.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/storage/article_storage.hpp">
 			<Option target="back_end_share"/>
 		</Unit>
 		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/storage/book_storage.hpp">
 			<Option target="back_end_share"/>
 		</Unit>
-		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/book_controller.hpp">
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/storage/slide_storage.hpp">
 			<Option target="back_end_share"/>
 		</Unit>
-		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/books_list.hpp">
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/storage/user_storage.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/controller/article_controller.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/controller/book_controller.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/controller/slide_controller.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/controller/user_controller.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/dataVO/articleVO.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/dataVO/bookVO.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/dataVO/slideVO.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/dataVO/userVO.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/logic/article_logic.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/logic/book_logic.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/logic/slide_logic.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/web/logic/user_logic.hpp">
 			<Option target="back_end_share"/>
 		</Unit>
 		<Unit filename="/home/fredia/CLionProjects/back-end-share/CMakeLists.txt">

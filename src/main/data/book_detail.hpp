@@ -13,9 +13,12 @@ struct book_detail {
     std::string name;
     std::string path;
     std::string imag;
+    int publisher_id;
+    int64_t created_time;
+    int is_deleted;
 };
 
-REFLECTION(book_detail, id, name, path, imag);
+REFLECTION(book_detail, id, name, path, imag, publisher_id, created_time, is_deleted);
 orm_auto_key autok{"id"};
 orm_not_null not_null{{"id", "name"}};
 #endif //BACK_END_SHARE_BOOK_DETAIL_HPP

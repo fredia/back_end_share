@@ -18,8 +18,9 @@ public:
         mysql.create_table<book_detail>(autok, not_null);
     }
 
-    void add_book_detail(const std::string name, const std::string path, const std::string img) {
-        book_detail bd{1, name, path, img};//id是auto_key 随便写一个id即可
+    void add_book_detail(const std::string name, const std::string path, const std::string img, const int usr_id) {
+        int64_t now_time = std::chrono::system_clock::now().time_since_epoch().count();
+        book_detail bd{1, name, path, img, usr_id, now_time, 0};//id是auto_key 随便写一个id即可
         mysql.insert(bd);
     }
 
@@ -33,8 +34,22 @@ public:
         return mysql.query<book_detail>(sql);
     }
 
+    std::vector<book_detail> get_book_detail_by_publisher(int usr_id) {
+        std::string sql = "where publisher_id=" + std::to_string(usr_id);
+        std::cout << sql << std::endl;
+        return mysql.query<book_detail>(sql);
+    }
+
     std::vector<book_detail> get_book_detail_list() {
         return mysql.query<book_detail>();
+    }
+
+    void update(const book_detail &bd) {
+        std::string sql = "where id=" + std::to_string(bd.id);
+        mysql.update<book_detail>(bd, sql);
+    }
+
+    ~book_storage() {
     }
 
 private:
