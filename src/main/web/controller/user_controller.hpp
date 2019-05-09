@@ -18,7 +18,7 @@ public:
     }
 
     void login_handler(request &req, response &res) {
-        res.add_header("Access-Control-Allow-Origin", "*");
+        res.add_header("Access-Control-Allow-Origin", "http://localhost:8080");
         res.add_header("Access-Control-Allow-Credentials", "true");
         res.add_header("Access-Control-Allow-Methods", "OPTIONS, GET, PUT, POST, DELETE");
         if (req.get_method() == "OPTIONS") {

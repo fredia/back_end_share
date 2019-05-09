@@ -19,7 +19,8 @@ public:
     }
 
     void upload_book_handler(request &req, response &res) {
-        res.add_header("Access-Control-Allow-Origin", "*");
+        res.add_header("Access-Control-Allow-Origin", "http://localhost:8080");
+        res.add_header("Access-Control-Allow-Credentials", "true");
         if (req.get_method() == "OPTIONS") {
             res.add_header("Access-Control-Allow-Headers", "Authorization");
             res.render_string("");
@@ -39,7 +40,8 @@ public:
     }
 
     void get_book_list_handler(request &req, response &res) {
-        res.add_header("Access-Control-Allow-Origin", "*");
+        res.add_header("Access-Control-Allow-Origin", "http://localhost:8080");
+        res.add_header("Access-Control-Allow-Credentials", "true");
         if (req.get_method() == "OPTIONS") {
             res.add_header("Access-Control-Allow-Headers", "Authorization");
             res.render_string("");
@@ -51,23 +53,21 @@ public:
     }
 
     void get_user_book_list_handler(request &req, response &res) {
-        res.add_header("Access-Control-Allow-Origin", "*");
+        res.add_header("Access-Control-Allow-Origin", "http://localhost:8080");
+        res.add_header("Access-Control-Allow-Credentials", "true");
         if (req.get_method() == "OPTIONS") {
-            res.add_header("Access-Control-Allow-Headers", "Authorization");
+            res.add_header("Access-Control-Allow-Headers",
+                           "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Authorization , Access-Control-Request-Headers");
             res.render_string("");
         } else {
             auto ptr = req.get_session();
             auto session = ptr.lock();
             std::string user_id = req.get_query_value("user");
-            if (session == nullptr) {
+            if (session == nullptr || session->get_data<std::string>("id") != user_id) {
                 res.set_status_and_content(status_type::unauthorized, "unauthorized");
                 return;
             }
-            int usr_id = session->get_data<int>("id");
-            if (user_id != std::to_string(usr_id)) {
-                res.set_status_and_content(status_type::unauthorized, "authorized failed");
-                return;
-            }
+            int usr_id = atoi(user_id.c_str());
             std::vector<user_detail> uv = us.get_user_by_id(usr_id);
             if (uv.size() != 1) {
                 res.set_status_and_content(status_type::bad_request, "bad request");
@@ -88,14 +88,18 @@ public:
         std::string baseUrl = "http://101.200.60.173:8081";
         std::string str = "[";
         for (auto book:books) {
-            nlohmann::json bd;
-            bd["name"] = book.name;
-            bd["id"] = book.id;
-            bd["path"] = baseUrl + book.path.substr(1);
-            bd["imag"] = baseUrl + book.imag.substr(1);
-            std::string tmp = bd.dump();
-            str += tmp;
-            str += ",";
+            if (book.is_deleted != 1) {
+                nlohmann::json bd;
+                bd["name"] = book.name;
+                bd["id"] = book.id;
+                bd["path"] = baseUrl + book.path.substr(1);
+                bd["imag"] = baseUrl + book.imag.substr(1);
+                bd["createdTime"] = book.created_time;
+                bd["publisher"] = book.publisher_id;
+                std::string tmp = bd.dump();
+                str += tmp;
+                str += ",";
+            }
         }
         str[str.size() - 1] = ']';
         std::cout << str << std::endl;

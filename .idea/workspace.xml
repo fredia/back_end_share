@@ -12,40 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9289230-3db6-4de5-a4d7-fafe951b6ab8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/data/article_detail.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/data/slide_detail.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/data/user_detail.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/service/atricle_service.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/service/slide_service.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/service/user_service.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/storage/article_storage.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/storage/slide_storage.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/storage/user_storage.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/controller/article_controller.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/controller/slide_controller.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/controller/user_controller.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/dataVO/articleVO.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/dataVO/slideVO.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/dataVO/userVO.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/logic/article_logic.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/logic/book_logic.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/logic/slide_logic.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/logic/user_logic.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/back_end_share.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/back_end_share.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/back_end_share.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/back_end_share.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/back_end_share.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/back_end_share.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/back_end_share.dir/src/main/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/back_end_share.dir/src/main/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/back_end_share.dir/src/main/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/back_end_share" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/back_end_share" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/back_end_share.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/back_end_share.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/include/mysql-orm/mysql.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/include/mysql-orm/mysql.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/data/book_detail.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/data/book_detail.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/service/book_service.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/service/book_service.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/storage/book_storage.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/storage/book_storage.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/book_controller.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/controller/book_controller.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/books_list.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/dataVO/bookVO.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/controller/book_controller.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/controller/book_controller.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/controller/user_controller.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/controller/user_controller.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +28,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/web/controller/book_controller.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="57" column="9" selection-start-line="53" selection-start-column="6" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="22">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#127#146#0" expanded="true" />
               </folding>
@@ -70,10 +41,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/include/sneeze/http_router.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3806">
+              <caret line="173" selection-start-line="173" selection-end-line="173" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/any">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1364">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/service/book_service.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-220">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -81,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/web/controller/user_controller.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="462">
+              <caret line="21" column="67" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="67" />
               <folding>
                 <element signature="e#126#145#0" expanded="true" />
               </folding>
@@ -91,27 +80,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/include/sneeze/http_router.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="188" selection-start-line="188" selection-end-line="188" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file:///usr/include/c++/7/bits/invoke.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97">
+            <state relative-caret-position="308">
               <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -123,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/include/sneeze/request.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="12848">
               <caret line="584" column="20" selection-start-line="584" selection-start-column="20" selection-end-line="584" selection-end-column="20" />
               <folding>
                 <element signature="e#23315#23330#0" expanded="true" />
@@ -135,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/include/sneeze/session.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="2134">
               <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
             </state>
           </provider>
@@ -144,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/include/sneeze/cookie.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+            <state relative-caret-position="1056">
+              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -153,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/storage/book_storage.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            <state relative-caret-position="946">
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
               <folding>
                 <element signature="e#121#165#0" expanded="true" />
               </folding>
@@ -206,9 +177,9 @@
         <option value="$PROJECT_DIR$/src/main/service/book_service.hpp" />
         <option value="$PROJECT_DIR$/src/main/storage/book_storage.hpp" />
         <option value="$PROJECT_DIR$/src/main/service/user_service.hpp" />
-        <option value="$PROJECT_DIR$/src/main/web/controller/book_controller.hpp" />
         <option value="$PROJECT_DIR$/src/main/main.cpp" />
         <option value="$PROJECT_DIR$/src/main/web/controller/user_controller.hpp" />
+        <option value="$PROJECT_DIR$/src/main/web/controller/book_controller.hpp" />
       </list>
     </option>
   </component>
@@ -368,23 +339,23 @@
       <workItem from="1555129351933" duration="6553000" />
       <workItem from="1555905181475" duration="678000" />
       <workItem from="1557314523098" duration="1215000" />
-      <workItem from="1557384709340" duration="18347000" />
+      <workItem from="1557384709340" duration="21839000" />
+      <workItem from="1557417486411" duration="617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52149000" />
+    <option name="totallyTimeSpent" value="56258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49925038" visible="true" weight="0.15758547" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49925038" visible="true" weight="0.15918803" />
       <window_info id="Structure" order="1" sideWeight="0.50074965" side_tool="true" weight="0.15758547" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39874083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,21 +375,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/main/web/controller/user_controller.hpp</url>
-          <line>27</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/include/sneeze/multipart_reader.hpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -676,57 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/storage/book_storage.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="e#121#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/sneeze/session.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/sneeze/cookie.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/sneeze/request.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="584" column="20" selection-start-line="584" selection-start-column="20" selection-end-line="584" selection-end-column="20" />
-          <folding>
-            <element signature="e#23315#23330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/service/book_service.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/controller/book_controller.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="57" column="9" selection-start-line="53" selection-start-column="6" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <element signature="e#127#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/include/sneeze/nlohmann_json.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -734,9 +640,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/c++/7/bits/invoke.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/controller/book_controller.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#127#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/sneeze/http_router.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3806">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/any">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/service/book_service.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/controller/user_controller.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="67" />
+          <folding>
+            <element signature="e#126#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
+        <state relative-caret-position="308">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -744,27 +698,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/controller/user_controller.hpp">
+    <entry file="file://$PROJECT_DIR$/src/include/sneeze/request.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="12848">
+          <caret line="584" column="20" selection-start-line="584" selection-start-column="20" selection-end-line="584" selection-end-column="20" />
           <folding>
-            <element signature="e#126#145#0" expanded="true" />
+            <element signature="e#23315#23330#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/sneeze/http_router.hpp">
+    <entry file="file://$PROJECT_DIR$/src/include/sneeze/session.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        <state relative-caret-position="2134">
+          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/bits/invoke.h">
+    <entry file="file://$PROJECT_DIR$/src/include/sneeze/cookie.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="1056">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/storage/book_storage.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="e#121#165#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
