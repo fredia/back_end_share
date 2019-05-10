@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/configuration/mysql_config.hpp">
+			<Option target="back_end_share"/>
+		</Unit>
 		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/data/article_detail.hpp">
 			<Option target="back_end_share"/>
 		</Unit>
@@ -99,7 +102,7 @@
 		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/main.cpp">
 			<Option target="back_end_share"/>
 		</Unit>
-		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/service/atricle_service.hpp">
+		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/service/article_service.hpp">
 			<Option target="back_end_share"/>
 		</Unit>
 		<Unit filename="/home/fredia/CLionProjects/back-end-share/src/main/service/book_service.hpp">

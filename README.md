@@ -50,17 +50,30 @@ SQUIRREL框架是基于C++17标准实现的轻量级web框架,有以下特点:
         │   ├── mysql-orm
         │   └── sneeze
         ├── main
+        │   ├── configuration
+        │   │   └── mysql_config.hpp
         │   ├── data
-        │   │   └── book_detail.hpp
+        │   │   ├── article_detail.hpp
+        │   │   ├── book_detail.hpp
+        │   │   ├── slide_detail.hpp
+        │   │   └── user_detail.hpp
         │   ├── main.cpp
         │   ├── service
-        │   │   └── book_service.hpp
+        │   │   ├── article_service.hpp
+        │   │   ├── book_service.hpp
+        │   │   ├── slide_service.hpp
+        │   │   └── user_service.hpp
         │   ├── storage
-        │   │   └── book_storage.hpp
+        │   │   ├── article_storage.hpp
+        │   │   ├── book_storage.hpp
+        │   │   ├── slide_storage.hpp
+        │   │   └── user_storage.hpp
         │   └── web
-        │       ├── book_controller.hpp
-        │       └── books_list.hpp
+        │       ├── controller
+        │       ├── dataVO
+        │       └── logic
         └── test
+
 
 
 
