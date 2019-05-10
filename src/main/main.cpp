@@ -29,13 +29,13 @@ int main() {
 
     server.set_http_handler<OPTIONS, POST>("/uploadSlide", &slide_controller::upload_slide_handler, &sct);
     server.set_http_handler<OPTIONS, GET>("/slides", &slide_controller::get_book_list_handler, &sct);
-    server.set_http_handler<OPTIONS, GET>("/userSlide", &slide_controller::get_user_slide_list_handler, &sct);
+    server.set_http_handler<OPTIONS, GET>("/userSlides", &slide_controller::get_user_slide_list_handler, &sct);
     server.set_http_handler<OPTIONS, DEL>("/slide", &slide_controller::delete_slide_handler, &sct);
 
 
     server.set_http_handler<OPTIONS, POST>("/uploadArticle", &article_controller::upload_article_handler, &act);
     server.set_http_handler<OPTIONS, GET>("/articles", &article_controller::get_article_list_handler, &act);
-    server.set_http_handler<OPTIONS, GET>("/userArticle", &article_controller::get_user_article_list_handler, &act);
+    server.set_http_handler<OPTIONS, GET>("/userArticles", &article_controller::get_user_article_list_handler, &act);
     server.set_http_handler<OPTIONS, DEL>("/article", &article_controller::delete_article_handler, &act);
 
 
