@@ -14,6 +14,10 @@ public:
 
     }
 
+    void create_user_detail_table(){
+        us.create_user_detail_table();
+    }
+
     bool auth(int id, std::string password) {
         std::vector<user_detail> uv = us.get_user_by_id(id);
         if (uv.size() != 1) {
@@ -22,7 +26,7 @@ public:
         return uv[0].password == password;
     }
 
-    void add_user(const std::string name, const std::string password, const std::string imag) {
+    void add_user(const std::string &name, const std::string &password, const std::string &imag) {
         us.add_user(name, password, imag, 0);//普通用户
     }
 
@@ -39,7 +43,6 @@ public:
     std::vector<user_detail> get_user_by_id(int id) {
         return us.get_user_by_id(id);
     }
-
 
 private:
     user_storage us;

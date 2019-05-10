@@ -14,15 +14,20 @@ using namespace sneeze;
 class user_controller {
 public:
     user_controller() {
-
+        us.create_user_detail_table();
     }
 
-    void login_handler(request &req, response &res) {
+    void set_res(response &res) {
         res.add_header("Access-Control-Allow-Origin", "http://localhost:8080");
         res.add_header("Access-Control-Allow-Credentials", "true");
         res.add_header("Access-Control-Allow-Methods", "OPTIONS, GET, PUT, POST, DELETE");
+        res.add_header("Access-Control-Allow-Headers",
+                       "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Authorization , Access-Control-Request-Headers");
+    }
+
+    void login_handler(request &req, response &res) {
+        set_res(res);
         if (req.get_method() == "OPTIONS") {
-            res.add_header("Access-Control-Allow-Headers", "Authorization,content-type");
             res.render_string("");
         } else {
             std::string loginForm = req.body().data();
@@ -30,7 +35,7 @@ public:
             std::string usr_id = j.at("id");
             std::string password = j.at("password");
             if (us.auth(atoi(usr_id.c_str()), password)) {
-                std::string ustr =usr_id;
+                std::string ustr = usr_id;
                 auto session = res.start_session();
                 session->set_data("id", usr_id);
                 session->set_max_age(3600);

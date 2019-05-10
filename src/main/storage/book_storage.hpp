@@ -18,13 +18,13 @@ public:
         mysql.create_table<book_detail>(autok, not_null);
     }
 
-    void add_book_detail(const std::string name, const std::string path, const std::string img, const int usr_id) {
+    void add_book_detail(const std::string &name, const std::string &path, const std::string &img, const int usr_id) {
         int64_t now_time = std::chrono::system_clock::now().time_since_epoch().count();
         book_detail bd{1, name, path, img, usr_id, now_time, 0};//id是auto_key 随便写一个id即可
         mysql.insert(bd);
     }
 
-    std::vector<book_detail> get_book_detail_by_name(std::string name) {
+    std::vector<book_detail> get_book_detail_by_name(const std::string &name) {
         return mysql.query<book_detail>("where name='" + name + "'");
     }
 

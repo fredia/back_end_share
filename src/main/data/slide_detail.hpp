@@ -19,7 +19,7 @@ struct slide_detail {
 };
 
 REFLECTION(slide_detail, id, name, path, imag, publisher_id, created_time, is_deleted);
-orm_auto_key autok{"id"};
-orm_not_null not_null{{"id", "name"}};
+orm_auto_key slide_autok{"id"};
+orm_not_null slide_not_null{{"id", "name"}};
 
 #endif //BACK_END_SHARE_SLIDE_DETAIL_HPP

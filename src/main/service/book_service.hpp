@@ -18,7 +18,7 @@ public:
     }
 
     void
-    add_book_detail(const std::string name, const std::string path, const std::string img, const int usr_id) {
+    add_book_detail(const std::string &name, const std::string &path, const std::string &img, const int usr_id) {
         bs.add_book_detail(name, path, img, usr_id);
     }
 

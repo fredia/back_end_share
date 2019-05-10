@@ -12,14 +12,13 @@ class user_storage {
 public:
     user_storage() {
         mysql.connect(cfg);
-        create_user_detail_table();
     }
 
     void create_user_detail_table() {
         mysql.create_table<user_detail>(auto_user_id, user_not_null);
     }
 
-    void add_user(const std::string name, const std::string password, const std::string imag, const int role) {
+    void add_user(const std::string &name, const std::string &password, const std::string &imag, const int role) {
         user_detail ud{1, name, imag, password, role};
         mysql.insert<user_detail>(ud);
     }
